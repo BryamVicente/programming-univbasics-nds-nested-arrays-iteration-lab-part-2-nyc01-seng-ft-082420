@@ -9,7 +9,7 @@ count = 0
 
   while count < sorted_array.count do
   inner_count = 0
-  minimum_amount = ""
+  minimum_amount = 50
   while inner_count < sorted_array.count do
     if sorted_array[count][inner_count] < minimum_amount
       minimum_amount = sorted_array[count][inner_count]
