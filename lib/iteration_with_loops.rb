@@ -6,6 +6,7 @@ count = 0
     sorted_array << little_array.sort
   end
 
+
   while count < sorted_array.count do
   inner_count = 0
   minimum_amount = 50
@@ -20,5 +21,5 @@ count = 0
   solution_answer << minimum_amount
   count += 1
   end
-  solution_answer
+solution_answer
 end
