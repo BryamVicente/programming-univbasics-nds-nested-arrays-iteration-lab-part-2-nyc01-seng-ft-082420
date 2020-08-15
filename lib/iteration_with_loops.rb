@@ -1,20 +1,11 @@
 def find_min_in_nested_arrays(src)
-# count = 0
-#   solution_answer = []
-#   sorted_array = []
-#   src.each do |little_array|
-#     sorted_array << little_array.sort
-#   end
-words = []
-sorted_array = []
 count = 0
-src.each do |items|
-  items.each do |item|
-    if item.is_a?(String)
-      words << item
-    end
+  solution_answer = []
+  sorted_array = []
+  src.each do |little_array|
+    sorted_array << little_array.sort
   end
-end
+
 
   while count < sorted_array.count do
   inner_count = 0
@@ -30,5 +21,5 @@ end
   solution_answer << minimum_amount
   count += 1
   end
-words
+solution_answer
 end
